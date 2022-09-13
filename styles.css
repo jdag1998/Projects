@@ -1,0 +1,146 @@
+.title {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+#table {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.box {
+  color: blueviolet;
+  font-size: 2em;
+  /* this display is used to center the text of the boxes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: inset; */
+}
+
+.right-border {
+  border-right: 0.2em solid white;
+}
+
+.left-border {
+  border-left: 0.2em solid white;
+}
+
+.top-border {
+  border-top: 0.2em solid white;
+}
+
+.bottom-border {
+  border-bottom: 0.2em solid white;
+}
+
+.strike {
+  position: absolute;
+  background-color: greenyellow;
+}
+
+.strike1Row {
+  width: 100%;
+  height: 4px;
+  top: 15%;
+}
+
+.strike2Row {
+  width: 100%;
+  height: 4px;
+  top: 48%;
+}
+
+.strike3Row {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+.strike3Row {
+  width: 100%;
+  height: 4px;
+  top: 83%;
+}
+
+.strike1Column{
+    height: 100%;
+    width: 4px;
+    left: 15%;
+
+}
+
+.strike2Column{
+    height: 100%;
+    width: 4px;
+    left: 48%;
+
+}
+
+.strike3Column{
+    height: 100%;
+    width: 4px;
+    left: 83%;
+
+}
+
+.strike1Diagonal{
+    width: 90%;
+    height: 3px;
+    top: 50%;
+    left: 5%;
+    transform: skewY(45deg);
+
+}
+.strike2Diagonal{
+    width: 90%;
+    height: 3px;
+    top: 50%;
+    left: 3%;
+    transform: skewY(-45deg);
+
+}   
+
+#winnerMessage{
+display: flex;
+flex-direction: column;
+background-color: black;
+align-items: center;
+border: plum 6px solid;
+padding:60px;
+margin-top: 50px; 
+
+}
+
+h2{
+color: white;
+font-size: 2em;
+margin-top: 0px;
+margin-bottom: 10px;
+
+}
+
+button{
+background-color: black;
+color: white;
+border: greenyellow 3px solid;
+margin-top: 25px;
+font-size: 1.5em 
+}
+
+.hidden{ 
+display: none;
+
+}
+
+.visible{
+display: block;
+}
