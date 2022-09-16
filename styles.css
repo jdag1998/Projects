@@ -136,11 +136,20 @@ margin-top: 25px;
 font-size: 1.5em 
 }
 
-.hidden{ 
-display: none;
-
+.notShown{ 
+visibility: hidden;
 }
-
 .visible{
 display: block;
 }
+
+.xHover:hover::after{
+content: "X";
+opacity: 0.8;
+}
+
+.oHover:hover::after{
+  content: "O";
+  opacity: 0.8;
+  
+  }
