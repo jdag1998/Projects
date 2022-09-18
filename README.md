@@ -73,6 +73,9 @@ This project was built usign HTML, CSS, and JavaScript( for the logic of it na f
 
 //![image](https://user-images.githubusercontent.com/110556973/190924185-b6d48135-7fe6-4794-9502-41ac57d0df25.png)
 
+// checkWinner() continues
+
+
 //![image](https://user-images.githubusercontent.com/110556973/190924211-5c5958cf-ec52-4a77-8316-cdd3674bdfef.png
 
 
